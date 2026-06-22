@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9SNQ4QQPL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y9SNQ4QQPL');
+  </script>
+
+  <!-- Your other meta tags, CSS links, etc. -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lokesh T | Java Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cd"></div>
+  <div id="cr"></div>
+  <div id="ca"></div>
+  
+  <canvas id="bg-canvas"></canvas>
+  
+  <div class="scanline"></div>
+  <div class="hex-grid"></div>
+
+<!-- NAVBAR -->
+<nav id="nav">
+
+  <ul>
+    <li><a href="#home" class="nav-a active">HOME</a></li>
+    <li><a href="#about" class="nav-a">ABOUT ME</a></li>
+    <li><a href="#skills" class="nav-a">SKILLS</a></li>
+    <li><a href="#experience" class="nav-a">EDUCATION & INTERNSHIP EXPERIENCE</a></li>
+    <li><a href="#projects" class="nav-a">PROJECTS</a></li>
+    <li><a href="#contact" class="nav-a">CONTACT</a></li>
+  </ul>
+
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-left">
+
+    <div class="hero-tag">
+      <span class="tline"></span>
+      Java Full Stack Developer
+    </div>
+
+    <h1 class="hero-name" id="glitch-name" data-text="LOKESH T">
+      LOKESH T
+    </h1>
+
+    <div class="hero-role">
+      <span style="color:var(--muted)">&gt;</span>
+      <span id="typed-role"></span>
+      <span class="cblink">|</span>
+    </div>
+
+    <p class="hero-desc">
+      Turning complex ideas into elegant, scalable, and visually appealing web applications using modern technologies.
+    </p>
+
+
+    <div class="hero-metrics">
+
+      <div class="metric">
+        <span class="metric-n" data-target="7">0</span>
+        <div class="metric-l">Projects</div>
+      </div>
+
+      <div class="metric-div"></div>
+
+      <div class="metric">
+        <span class="metric-n" data-target="3">0</span>
+        <div class="metric-l">Internships</div>
+      </div>
+
+      <div class="metric-div"></div>
+
+      <div class="metric">
+        <span class="metric-n" data-target="16">0</span>
+        <div class="metric-l">Technologies</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="hero-right">
+
+    <div class="globe-wrap">
+
+      <div class="profile-orbit">
+        <img src="image.png" alt="Lokesh T">
+      </div>
+
+      <canvas id="globe-canvas" width="500" height="500"></canvas>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+
+  <div class="sec-label">WHO I AM</div>
+
+  <h2 class="sec-title">ABOUT ME</h2>
+
+  <div class="about-grid">
+
+    <div class="about-text">
+
+      <p>I'm Fresher, Electronics and Communication Engineering graduate with a strong passion for Java Full Stack Development, UI Design, and scalable applications.</p>
+
+      <p>Skilled in building responsive, modern, and user-friendly web applications using frontend and backend technologies.</p>
+
+    </div>
+
+    <div class="stat-cards">
+
+      <div class="stat-card sc1">
+        <div class="sc-n" data-target="7">0</div>
+        <div class="sc-l">Projects Built</div>
+      </div>
+
+      <div class="stat-card sc2">
+        <div class="sc-n" data-target="16">0</div>
+        <div class="sc-l">Technologies</div>
+      </div>
+
+      <div class="stat-card sc3">
+        <div class="sc-n" data-target="3">0</div>
+        <div class="sc-l">Internships</div>
+      </div>
+
+      <div class="stat-card sc4">
+        <div class="sc-n" data-target-float="7.0">0</div>
+        <div class="sc-l">CGPA</div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+
+  <div class="sec-label">TECH STACK</div>
+
+  <h2 class="sec-title">SKILLS</h2>
+
+  <div class="skills-category">
+    <h3>Programming Languages</h3>
+    <div class="skills-wrap">
+      <div class="skill-pill">Java</div>
+      <div class="skill-pill">Python</div>
+      <div class="skill-pill">JavaScript</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Frontend Development</h3>
+    <div class="skills-wrap">
+      <div class="skill-pill">HTML</div>
+      <div class="skill-pill">CSS</div>
+      <div class="skill-pill">React.js</div>
+      <div class="skill-pill">Bootstrap</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Backend Development</h3>
+    <div class="skills-wrap">
+      <div class="skill-pill">Node.js</div>
+      <div class="skill-pill">Express.js</div>
+      <div class="skill-pill">Spring Boot</div>
+      <div class="skill-pill">REST APIs</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Databases</h3>
+    <div class="skills-wrap">
+      <div class="skill-pill">MongoDB</div>
+      <div class="skill-pill">MySQL</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Tools & Platforms</h3>
+    <div class="skills-wrap">
+      <div class="skill-pill">Git & GitHub</div>
+      <div class="skill-pill">V S Code</div>
+      <div class="skill-pill">Jupyter Notebook</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section reveal">
+
+  <div class="sec-label">MY JOURNEY</div>
+
+  <h2 class="sec-title">EDUCATION & INTERNSHIP EXPERIENCE</h2>
+
+  <div class="exp-grid">
+
+    <!-- EDUCATION -->
+    <div>
+
+      <div class="exp-head">EDUCATION</div>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+
+          <div class="tl-dot"></div>
+
+          <div class="tl-card">
+            <h3>B.Tech in Electronics & Communication</h3>
+
+            <div class="tl-meta">
+              Nagarjuna College of Engineering and Technology, Bangalore | 2023 - 2026
+            </div>
+
+            <p>CGPA: 7/10</p>
+          </div>
+
+        </div>
+
+        <div class="tl-item">
+
+          <div class="tl-dot"></div>
+
+          <div class="tl-card">
+            <h3>Diploma in Electronics & Communication</h3>
+
+            <div class="tl-meta">
+              D S Dinakar National Polytechnic, JNNCE Campus, Shivamogga | 2018 - 2022
+            </div>
+
+            <p>Percentage: 56.62%</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- INTERNSHIPS -->
+     <div>
+
+      <div class="exp-head">INTERNSHIP EXPERIENCE</div>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+
+          <div class="tl-dot"></div>
+
+          <div class="tl-card">
+
+            <h3>Job-Ready Pro Program (Python, React, MS Office, DSA & Interview Mastery)</h3>
+
+            <div class="tl-meta">
+              VTU Centre for Online Education | May 2025
+            </div>
+
+            <p>Completed intensive hands-on training in Python, React, DSA, and interview preparation. Worked on practical projects and earned industry-recognized certification.</p>
+
+          </div>
+
+        </div>
+
+    <div>
+
+          <div class="tl-card">
+
+            <h3>PYTHON DEVELOPMENT</h3>
+
+            <div class="tl-meta">
+              Inventeron Technologies & Business Solutions LLP, Bengaluru (Offline) | Jul 2025 – Aug 2025
+            </div>
+
+            <p>Learned Python applications using Object-Oriented Programming and file handling concepts. Built multiple mini projects while improving debugging and problem-solving skills.</p>
+
+          </div>
+
+        </div>
+
+        <div class="tl-item">
+
+          <div class="tl-dot"></div>
+
+          <div class="tl-card">
+
+            <h3>JAVA FULL STACK DEVELOPMENT</h3>
+
+            <div class="tl-meta">
+              Inventeron Technologies & Business Solutions LLP, Bengaluru (Offline) | Oct 2025 – Dec 2025 
+            </div>
+
+            <p>Learned end-to-end web applications using HTML, CSS, React.js, Node.js, Express.js, and MongoDB. Integrated frontend-backend integration, REST APIs, & Git-based version control.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section reveal">
+
+  <div class="sec-label">FEATURED WORK</div>
+
+  <h2 class="sec-title">PROJECTS</h2>
+
+  <div class="projects-grid">
+
+    <!-- ADD THESE PROJECT CARDS INSIDE .projects-grid -->
+
+<div class="proj-card">
+
+  <div class="proj-top">
+    <span>🎵</span>
+  </div>
+
+  <div class="proj-body">
+
+    <h3>MUSIC PLAYER APP</h3>
+
+    <p>Developed a React-based Music Player that allows users to search songs online, upload local music files, create playlists, and manage favorites.Includes shuffle/repeat playback, animated UI, dark/light mode, and a responsive music listening experience.</p>
+
+    <div class="proj-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+      <span>REST APIs</span>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="proj-card">
+
+  <div class="proj-top">
+    <span>✅</span>
+  </div>
+
+  <div class="proj-body">
+
+    <h3>TODO LIST APP</h3>
+
+    <p>Developed a task management application enabling users to add, view, update, and delete daily tasks efficiently with full CRUD functionality.</p>
+
+    <div class="proj-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="proj-card">
+
+  <div class="proj-top">
+    <span>🔐</span>
+  </div>
+
+  <div class="proj-body">
+
+    <h3>SIGNUP/LOGIN</h3>
+
+    <p>Developed a Modern glassmorphism login and signup interface with smooth form switching and client-side validation. Supports account creation, secure login checks, and password reset simulation using JavaScript.</p>
+
+    <div class="proj-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="proj-card">
+
+  <div class="proj-top">
+    <span>🌦️</span>
+  </div>
+
+  <div class="proj-body">
+
+    <h3>Real-Time WEATHER APP</h3>
+
+    <p>Developed a Modern weather app with a glass‑morphism UI – live temperature, humidity, wind, and pressure data from OpenWeatherMap.</p>
+
+    <div class="proj-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+      <span>REST APIs</span>
+    </div>
+
+  </div>
+
+</div>
+
+  
+    <div class="proj-card">
+
+      <div class="proj-top">
+        <span>📖</span>
+      </div>
+
+      <div class="proj-body">
+
+        <h3>3D PORTFOLIO BOOK</h3>
+
+        <p>
+          Developed an interactive 3D portfolio website with realistic page-flipping effects, smooth navigation, and responsive design. Showcased personal profile, skills, projects, education, and contact information in a visually engaging book-style interface.
+        </p>
+
+        <div class="proj-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <div class="proj-card">
+
+      <div class="proj-top">
+        <span>🛒</span>
+      </div>
+
+      <div class="proj-body">
+
+        <h3>E-COMMERCE APPLICATION</h3>
+
+        <p>
+          Developed a MERN stack e-commerce platform with user authentication, product and order management, and CRUD operations using React.js, Node.js, Express.js, and MongoDB.
+        </p>
+
+        <div class="proj-tags">
+          <span>MERN Stack</span>
+
+        </div>
+
+      </div>
+
+  </div>
+  
+    <div class="proj-card">
+
+      <div class="proj-top">
+        <span>🎙️</span>
+      </div>
+
+      <div class="proj-body">
+
+        <h3>Voice Studio App</h3>
+
+        <p>Developed a voice-enabled web application with speech-to-text, text-to-speech, language translation, voice recording, audio playback, and dark/light mode using Web Speech API, Media Recorder API, and JavaScript.</p>
+
+        <div class="proj-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section reveal">
+
+  <div class="sec-label">LET'S CONNECT</div>
+
+  <h2 class="sec-title">CONTACT ME</h2>
+
+  <div class="contact-grid">
+
+    <div class="contact-list">
+
+      <div class="contact-item">
+
+        <div class="ci-icon">📞</div>
+
+        <div>
+          <div class="ci-lbl">Phone</div>
+          <div class="ci-val">+91 6361081536</div>
+        </div>
+
+      </div>
+
+      <div class="contact-item">
+
+        <div class="ci-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="gmail" width="22">
+        </div>
+
+        <div>
+          <div class="ci-lbl">Email</div>
+
+          <div class="ci-val">
+            <a href="mailto:loki07272@gmail.com">loki07272@gmail.com</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-item">
+
+        <div class="ci-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="22">
+        </div>
+
+        <div>
+          <div class="ci-lbl">GitHub</div>
+
+          <div class="ci-val">
+            <a href="https://github.com/Lokesht218" target="_blank">github.com/Lokesht218</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-item">
+
+        <div class="ci-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="22">
+        </div>
+
+        <div>
+          <div class="ci-lbl">LinkedIn</div>
+
+          <div class="ci-val">
+            <a href="https://linkedin.com/in/lokesh-t-881515375" target="_blank">linkedin.com/in/lokesh-t-881515375</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="contact-cta">
+
+  <div class="cta-glow"></div>
+
+  <h3>OPEN TO WORK</h3>
+
+  <p>
+    Looking for full-time opportunities in Java Full Stack Development.
+  </p>
+
+  <div class="contact-buttons">
+
+  <a href="mailto:loki07272@gmail.com" class="btn-main magnetic">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" 
+    alt="gmail" width="20" style="margin-right:8px;">
+    Send Email
+  </a>
+
+  <a href="https://wa.me/916361081536" target="_blank" class="btn-main magnetic">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" 
+    alt="whatsapp" width="20" style="margin-right:8px;">
+    WhatsApp Me
+  </a>
+  </div>
+
+</div>
+
+</section>
+<br>
+
+<h1 style="text-align: center;"><p><b><big>THANK❤️YOU!</big></b></p></h1>
+
+<script src="script.js"></script>
+
+</body>
+</html>
